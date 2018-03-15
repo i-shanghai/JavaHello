@@ -72,7 +72,29 @@ public class _05_类型转换 {
 		int y=x+++x;
 		System.out.println("y=x+++x;y="+y);
 		
-		 
+		//Java 用的是 unicode 16 位
+		//特殊字符，逃逸字符 \t
+		System.out.println("\\--\n-\"\'");
+		
+		System.out.println("123\t456");
+		System.out.println("12\t456");
+		System.out.println("1\t456");
+		
+		System.out.println("123\b");
+		
+		//char 和 int 之间的转换
+		char c =(char)26446;
+		System.out.println(c);
+		
+		int  li =(int)'李';
+		System.out.println(li);
+		
+		int  cc =(int)'A';
+		System.out.println(cc);
+		System.out.println("A - > a:"+(char)(cc+32));
+		  
+		System.out.println("a-A = "+((int)'a'-(int)'A'));
+		
 	}
 
 }
