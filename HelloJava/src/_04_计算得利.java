@@ -22,9 +22,7 @@ public class _04_¼ÆËãµÃÀû {
 			 amount=amount*(1+rate);
 		}
 		  
-		System.out.println(amount);
-		
-		
+		System.out.println(amount); 
 	}
 
 }
