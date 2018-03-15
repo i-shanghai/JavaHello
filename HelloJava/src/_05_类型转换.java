@@ -52,6 +52,27 @@ public class _05_类型转换 {
 		System.out.println("-1000 超出byte的范围 ："+(byte)(Math.round(-1000)) );
 		System.out.println("1024 超出byte的范围 ："+(byte)(Math.round(1024)) );
 		
+		//单目运算符
+		// ++ -- 的算子必须是变量
+		int a =5;
+		int b=0;
+		
+		// b = a++ ;   
+		// System.out.println("b = a++ ; b="+b );
+		
+		b = ++a ;   
+		System.out.println("b = ++a ; b="+b );
+		
+		
+		//int x=10;
+		//int y=x+x++;
+		//System.out.println("y=x+x++;y="+y);
+		
+		int x=10;
+		int y=x+++x;
+		System.out.println("y=x+++x;y="+y);
+		
+		 
 	}
 
 }
